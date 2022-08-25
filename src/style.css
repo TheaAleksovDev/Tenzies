@@ -26,6 +26,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 600px;
 }
 .dice-board{
     display: grid;
@@ -85,4 +86,30 @@ button:hover,
 }
 button:active{
     box-shadow: inset 2px 2px 10px black,4px 4px 10px black;
+}
+.stats{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 530px;
+    font-size: 10px;
+    margin: 0;
+    color: black;
+    
+}
+.best-time{
+    font-size: 20px;
+    margin: 0;
+    color: var(--held);
+    border: 2px solid var(--held);
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.rolls,
+.time{
+    font-weight: 700;
+}
+span{
+    color: var(--held);
+    text-shadow: 4px 4px 10px black;
 }
